@@ -9,17 +9,17 @@ class Ch1Q2CheckPermutationTest {
 
     @Test
     void testCheckPermutationArraySort() {
-        assertTrue(Ch1Q2CheckPermutation.checkPermutationArraySort("abc","cab"));
-        assertTrue(Ch1Q2CheckPermutation.checkPermutationArraySort("aaaabbbb","abababab"));
-        assertFalse(Ch1Q2CheckPermutation.checkPermutationArraySort("abcd","caba"));
-        assertFalse(Ch1Q2CheckPermutation.checkPermutationArraySort("abcd","dcb"));
+        assertTrue(Ch1Q2CheckPermutation.checkPermutationArraySort("abc", "cab"));
+        assertTrue(Ch1Q2CheckPermutation.checkPermutationArraySort("aaaabbbb", "abababab"));
+        assertFalse(Ch1Q2CheckPermutation.checkPermutationArraySort("abcd", "caba"));
+        assertFalse(Ch1Q2CheckPermutation.checkPermutationArraySort("abcd", "dcb"));
     }
 
     @Test
     void testCheckPermutationMap() {
-        assertTrue(Ch1Q2CheckPermutation.checkPermutationMap("abc","cab"));
-        assertTrue(Ch1Q2CheckPermutation.checkPermutationMap("aaaabbbb","abababab"));
-        assertFalse(Ch1Q2CheckPermutation.checkPermutationMap("abcd","caba"));
-        assertFalse(Ch1Q2CheckPermutation.checkPermutationMap("abcd","dcb"));
+        assertTrue(Ch1Q2CheckPermutation.checkPermutationMap("abc", "cab"));
+        assertTrue(Ch1Q2CheckPermutation.checkPermutationMap("aaaabbbb", "abababab"));
+        assertFalse(Ch1Q2CheckPermutation.checkPermutationMap("abcd", "caba"));
+        assertFalse(Ch1Q2CheckPermutation.checkPermutationMap("abcd", "dcb"));
     }
 }
